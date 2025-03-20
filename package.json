@@ -2,13 +2,15 @@
   "name": "notes-api",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy --minify",
+    "test": "vitest run"
   },
   "dependencies": {
     "hono": "^4.7.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",
+    "vitest": "^3.0.9",
     "wrangler": "^3.109.2"
   }
 }
